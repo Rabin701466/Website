@@ -1,0 +1,75 @@
+.service-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 15px;
+    width: 91%;
+
+}
+.service-descriptions{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.service-descriptions{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+
+}
+.service-tools > button{
+    background-color: none;
+    
+}
+/* .service-card-container{
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); 
+    gap: 5px;
+} */
+
+.service-card{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(91, 87, 87, 0.229);
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(194, 181, 181);
+    border-radius: 6px;
+    padding: 5px;
+}
+.service-card-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.service-icons{
+    background-color: rgba(128, 122, 122, 0.779);
+    padding: 5px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+.service-expertise{
+
+    background-color: rgb(103, 21, 170);
+    color: white;
+    border: none;
+    padding-right: 5px;
+    padding: 5px ;
+    width: auto;
+    border-radius: 7px;
+}
