@@ -1,0 +1,19 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    color: white;
+    background-color: #222;
+    list-style: none;
+    display: flex;
+    /* makes items horizontal */
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
